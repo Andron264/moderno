@@ -1,0 +1,69 @@
+@import "vars";
+@import "global";
+
+.header {
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 26px;
+      padding-bottom: 16px;
+   }
+   &__tel {
+      margin-left: auto;
+      margin-right: 26px;
+      color: #768b95;
+      a {
+         color: #768b95;
+      }
+      span {
+         color: $red;
+      }
+   }
+}
+.btn-g {
+   display: inline-block;
+   padding: 9px 23px 9px;
+   background: $green;
+   text-align: center;
+   border-radius: 4px;
+   margin-right: 0;
+   a {
+      color: #fff;
+      font-size: 12px;
+   }
+}
+.btn-r {
+   display: inline-block;
+   padding: 9px 16.5px 9px;
+   background: $red;
+   text-align: center;
+   border-radius: 4px;
+   margin-left: 0;
+   a {
+      color: #fff;
+      font-size: 12px;
+   }
+}
+
+.header__menu {
+   background-color: $bg;
+}
+.header__menu .header__inner {
+   height: 62px;
+   padding: 0;
+   ul {
+      padding: 0;
+   }
+   li {
+      list-style: none;
+      display: inline-block;
+      & + li {
+         margin-left: 35px;
+      }
+   }
+   a {
+      font-size: 14px;
+      color: #fff;
+   }
+}
