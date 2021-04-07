@@ -124,3 +124,208 @@
       }
    }
 }
+.product {
+   background-color: #f4f6f5;
+   padding-bottom: 100px;
+   &__inner-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+   &__title {
+      font-size: 34px;
+      font-weight: 700;
+      text-align: center;
+      padding-top: 100px;
+      padding-bottom: 55px;
+      color: $product;
+   }
+   &__inner-btn {
+      text-align: center;
+      margin-bottom: 60px;
+      button {
+         padding: 10px 20px;
+         border: none;
+         background-color: #fff;
+      }
+   }
+   .mixitup-control-active {
+      background-color: $red;
+      color: #fff;
+   }
+   &__item {
+      max-width: 450px;
+      width: 100%;
+      box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+      margin-bottom: 30px;
+   }
+
+   &__item-img {
+      min-height: 250px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: block;
+   }
+
+   &__item-content {
+      padding: 25px 30px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e7ecf2;
+   }
+
+   &__item-name {
+   }
+
+   &__item-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: $product;
+      padding-bottom: 5px;
+   }
+
+   &__item-category {
+      font-size: 14px;
+      color: #b9db92;
+   }
+
+   &__item-price {
+      font-size: 20px;
+      font-weight: 700;
+      color: $product;
+   }
+
+   &__item-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px 20px;
+   }
+
+   &__item-author {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: $product;
+      max-width: 245px;
+      span {
+         display: block;
+         width: 30px;
+         height: 30px;
+         border-radius: 50%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin-right: 15px;
+      }
+   }
+
+   &__item-star {
+   }
+}
+.btn-bottom {
+   padding-top: 75px;
+}
+.slider {
+   padding-top: 100px;
+   padding-bottom: 100px;
+   &__title {
+      text-align: center;
+      margin-bottom: 55px;
+      font-size: 36px;
+      font-weight: 700;
+      color: $product;
+   }
+   &__item {
+      max-width: 450px;
+      width: 100%;
+      box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+      margin-bottom: 30px;
+   }
+
+   &__item-img {
+      min-height: 250px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: block;
+   }
+
+   &__item-content {
+      padding: 25px 30px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e7ecf2;
+   }
+
+   &__item-name {
+   }
+
+   &__item-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: $product;
+      padding-bottom: 5px;
+   }
+
+   &__item-category {
+      font-size: 14px;
+      color: #b9db92;
+   }
+
+   &__item-price {
+      font-size: 20px;
+      font-weight: 700;
+      color: $product;
+   }
+
+   &__item-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px 20px;
+   }
+
+   &__item-author {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: $product;
+      max-width: 245px;
+      span {
+         display: block;
+         width: 30px;
+         height: 30px;
+         border-radius: 50%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin-right: 15px;
+      }
+   }
+   .slick-dots {
+      text-align: center;
+      li {
+         display: inline-block;
+         margin-left: 3px;
+         margin-right: 3px;
+         &.slick-active {
+            button {
+               background-color: $green;
+            }
+         }
+         button {
+            border-radius: 50%;
+            background-color: rgb(232, 232, 232);
+            border: none;
+            font-size: 0;
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+         }
+      }
+   }
+}
