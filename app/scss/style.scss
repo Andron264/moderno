@@ -176,9 +176,6 @@
       border-bottom: 1px solid #e7ecf2;
    }
 
-   &__item-name {
-   }
-
    &__item-title {
       font-size: 18px;
       font-weight: 700;
@@ -221,9 +218,6 @@
          margin-right: 15px;
       }
    }
-
-   &__item-star {
-   }
 }
 .btn-bottom {
    padding-top: 75px;
@@ -260,10 +254,6 @@
       align-items: center;
       border-bottom: 1px solid #e7ecf2;
    }
-
-   &__item-name {
-   }
-
    &__item-title {
       font-size: 18px;
       font-weight: 700;
@@ -327,5 +317,65 @@
             cursor: pointer;
          }
       }
+   }
+}
+.advanteges {
+   background-color: $bg;
+   padding: 100px 0;
+   &__title {
+      color: #fff;
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 80px;
+   }
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__inner-item {
+      text-align: center;
+      max-width: 320px;
+      &:hover {
+         .advanteges__inner-title {
+            color: $green;
+         }
+         .advanteges__inner-img {
+            background-color: $green;
+            svg {
+               g {
+                  fill: #fff;
+               }
+            }
+         }
+      }
+   }
+
+   &__inner-img {
+      margin: 0 auto;
+      width: 115px;
+      height: 115px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      transition: all 0.5s;
+   }
+
+   &__inner-title {
+      font-size: 24px;
+      color: #fff;
+      font-weight: 500;
+      margin-bottom: 30px;
+      transition: all 0.5s;
+   }
+
+   &__inner-text {
+      font-size: 14px;
+      color: #b0bec5;
    }
 }
