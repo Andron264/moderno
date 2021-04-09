@@ -338,6 +338,7 @@
    &__inner-item {
       text-align: center;
       max-width: 320px;
+      cursor: pointer;
       &:hover {
          .advanteges__inner-title {
             color: $green;
@@ -377,5 +378,43 @@
    &__inner-text {
       font-size: 14px;
       color: #b0bec5;
+   }
+}
+.author {
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 750px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   &__box {
+      max-width: 650px;
+      width: 100%;
+      min-height: 215px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $green;
+   }
+
+   &__text {
+      color: #fff;
+      font-size: 30px;
+      max-width: 260px;
+      span {
+         font-weight: bold;
+      }
+   }
+
+   &__button {
+      margin-left: 30px;
+      width: 220px;
+      height: 60px;
+      border: none;
+      a {
+         color: $product;
+         font-size: 18px;
+      }
    }
 }
